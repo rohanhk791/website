@@ -4,9 +4,14 @@ import { Link } from "react-router-dom";
 class Home extends Component {
   render() {
     return (
-        <div>
-        <h1>This is the home page</h1>
-      </div>
+      <div className='hero'>
+            <div className='content'>
+                <h1>Bank that understands the value of your time</h1>
+                
+                <p className='search-text'> One of India's leading non-banking financial companies, Bajaj Finserv offers personal loans that are packed with benefits. </p>
+                <button class="btn btn-warning text-white btn-lg Button">Explore Now</button>
+            </div>
+        </div>
     );
   }
 }

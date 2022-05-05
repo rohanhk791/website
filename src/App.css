@@ -36,3 +36,147 @@
     transform: rotate(360deg);
   }
 }
+
+/* //style for register page// */
+.form{
+  background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.form{
+  background-color: white;
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  /* height: 600px; */
+}
+
+.form-body{
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.form-body > *{
+  padding: 5px;
+}
+
+.form__label{
+  width: 40%;
+}
+
+.form_input{
+  width: 60%;
+}
+
+.footer{
+  text-align: center;
+}
+/* 
+///style for navbar// */
+
+.navbar-brand{
+  color: rgb(255, 255, 255);
+  font-size:1.8em;
+  font-weight: 700;
+  margin-left: 30%;
+  }
+  .nav-iteam{
+  margin-right:10%; 
+  }
+  .nav{
+  color:rgb(0, 0, 0);
+  font-size: 1.2em;
+  }
+
+  .App{
+    background-color:rgb(3, 43, 70)
+  }
+/* 
+  //style for homepage// */
+
+  .hero {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.hero:before {
+    content: '';
+    background: url('../src/Components/assets/1.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+
+.hero p {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.Button{
+margin-left:37rem !important;
+transform: translateX(-25%);
+color: #fff;
+background: rgb(3, 43, 70);
+padding:10px 10px; 
+font-size: 2em;
+font-weight: 600;
+width: 250px;
+}
+/* //footer// */
+
+.container{
+  color:rgb(255, 255, 255);
+  font-size: 1.5rem;
+}
+.social i{
+  font-size: 18px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50px;
+  border-width: 3px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s
+}
+.social i:hover{
+  background-color: rgb(38, 230, 230);
+}
+
+/* //about css// */
+.abt{
+  font-size: 18px;
+  margin-right: 50px;
+  margin-left: 50px;
+  word-wrap: normal;
+  text-align: left;
+}

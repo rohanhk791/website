@@ -1,0 +1,38 @@
+[
+    {
+        "NO": "1",
+        "Loan": "Bike Loan",
+        "Name": "FairFinance",
+        "period_of_years": 5,
+        "interest_rate" : 8
+    },
+    {
+        "NO": "2",
+        "Loan": "Car Loan",
+        "Name": "FairFinance",
+        "period_of_years": 8,
+        "interest_rate" : 12
+    },
+    {
+        "NO": "3",
+        "Loan": "Bus Loan",
+        "Name": "FairFinance",
+        "period_of_years": 15,
+        "interest_rate" : 20
+    },
+    {
+        "NO": "4",
+        "Loan": "Lorry Loan",
+        "Name": "FairFinance",
+        "period_of_years": 20,
+        "interest_rate" : 18
+    },
+    {
+        "NO": "5",
+        "Loan": "Auto Loan",
+        "Name": "FairFinance",
+        "period_of_years": 5,
+        "interest_rate" : 10
+    }
+    
+]

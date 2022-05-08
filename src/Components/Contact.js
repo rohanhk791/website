@@ -1,44 +1,27 @@
-import React, { useState } from "react";
-
-const Contact = () => {
-  const [status, setStatus] = useState("Submit");
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("Sending...");
-    const { name, email, message } = e.target.elements;
-    let details = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
-  };
-  return (
-    <form onSubmit={handleSubmit}>
+import React, { Component } from "react";
+function Register() {
+    return(
+      <div className="form">
+          <div className="form-body">
+            
+              <div className="username">
+               
+              <label className="form__label" for="firstName">First Name </label>
+                  <input className="form__input" type="text" id="firstName" placeholder="First Name"/>
+              </div>
       <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
-      </div>
+      <label className="form__label" for="email">Email </label>
+                  <input  type="email" id="email" className="form__input" placeholder="Email"/>
+              </div>
       <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
+      <label className="form__label" for="email">Message </label>
         <textarea id="message" required />
       </div>
-      <button type="submit">{status}</button>
-    </form>
-  );
-};
-
-export default Contact;
+      <div class="footer">
+              <button type="submit" class="btn">Submit</button>
+          </div> 
+      </div>     
+      </div>
+    )     
+}
+export default Register;

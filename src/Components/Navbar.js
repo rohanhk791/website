@@ -15,20 +15,20 @@ return (
    </button>
      <a class="navbar-brand" href="#">FairFinance</a>  
    </div>       
-     <div class="collapse navbar-collapse" id="myNavbar">
+     <div class="collapse navbar-collapse nav" id="myNavbar">
    <ul class="nav navbar-nav">  
      <li class="active"><Link to="home">Home</Link></li>
-     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Loan Services <span class="caret"></span></a>  
+     <li class="dropdown"><a class="dropdown-toggle navv" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>  
               <ul class="dropdown-menu">  
-                <li><Link to="Homeloan">Homeloan</Link></li> 
-                <li><Link to="Vehicleloan">Vehicleloan</Link></li>
-                <li><Link to="Personalloan">Personalloan</Link></li>  
-                <li><Link to="services4">Services4</Link></li>  
+                <li><Link to="Homeloan">Home loan</Link></li> 
+                <li><Link to="Vehicleloan">Vehicle loan</Link></li>
+                <li><Link to="Personalloan">Personal loan</Link></li>   
+                
             
               </ul>  
             </li> 
 
-      
+            <li><Link to="payment">Payment</Link></li> 
      <li><Link to="contact">Contact</Link></li> 
      <li><Link to="about">About Us</Link></li>  
    </ul> 

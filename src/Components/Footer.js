@@ -9,13 +9,16 @@ function Footer()
       <footer class="text-center text-lg-start text-white">
           <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
+              <br>
+              </br>
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 hh">
                   <i class="fas fa-gem me-3"></i>FairFinance 
                 </h6>
                 <p>
-                Sakruthi Complex, 2rd Cross A block, Vivekananda Nagar, Mandya, Karnataka state, PIN-571401
+                Sakruthi Complex, 2rd Cross A block, Vivekananda Nagar, Mandya, Karnataka state, PIN-571401,
                 </p>
+                <p>Ph no : 6362994070</p>
                 <br></br>
                 <div class="social">
                   <Link to="" class="me-4 text-reset">

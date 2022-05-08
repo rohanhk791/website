@@ -46,7 +46,7 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3
 }
 
 .form{
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
   width: 550px;
   margin: 20px auto;
@@ -93,6 +93,12 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3
 
   .App{
     background-color:rgb(3, 43, 70)
+  }
+  .nav{
+    font-size: 20px;
+  }
+  .dropdown{
+    background-color: rgb(3, 43, 70)
   }
 /* 
   //style for homepage// */
@@ -152,10 +158,15 @@ width: 250px;
 
 .container{
   color:rgb(255, 255, 255);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+}
+.hh{
+  color:rgb(255, 255, 255);
+  font-size: 1.8rem;
+
 }
 .social i{
-  font-size: 18px;
+  font-size: 22px;
   display: inline-block;
   color: #fff;
   line-height: 1;
@@ -179,4 +190,55 @@ width: 250px;
   margin-left: 50px;
   word-wrap: normal;
   text-align: left;
+  text-align: justify;
 }
+
+/* //homeloan// */
+
+.img{
+  width: 250;
+  height: 250;
+}
+
+/* //homeloan/// */
+
+.tr{
+  border: 1px solid;
+}
+.hom p{
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  font-size: 22px;
+}
+.thead{
+  text-align: center;
+  margin-left: 30px;
+}
+
+/* //Personalloan// */
+
+.Button1{
+  margin-left:60rem !important;
+  transform: translateX(-25%);
+  color: #fff;
+  background: rgb(3, 43, 70);
+  padding:10px 10px; 
+  font-size: 2em;
+  font-weight: 600;
+  width: 250px;
+  }
+  .tr{
+    border: 1px solid;
+  }
+  .bike p{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .thead{
+    text-align: center;
+    margin-left: 30px;
+  }
+  

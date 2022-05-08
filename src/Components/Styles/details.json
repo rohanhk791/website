@@ -1,0 +1,38 @@
+[
+    {
+        "NO": "1",
+        "Loan": "Home Loan",
+        "Name": "FairFinance",
+        "period_of_years": 5,
+        "interest_rate" : 8
+    },
+    {
+        "NO": "2",
+        "Loan": "Home Loan",
+        "Name": "FairFinance",
+        "period_of_years": 8,
+        "interest_rate" : 10
+    },
+    {
+        "NO": "3",
+        "Loan": "Home Loan",
+        "Name": "FairFinance",
+        "period_of_years": 10,
+        "interest_rate" : 12
+    },
+    {
+        "NO": "4",
+        "Loan": "Home Loan",
+        "Name": "FairFinance",
+        "period_of_years": 12,
+        "interest_rate" : 14
+    },
+    {
+        "NO": "5",
+        "Loan": "Home Loan",
+        "Name": "FairFinance",
+        "period_of_years": 15,
+        "interest_rate" : 18
+    }
+    
+]

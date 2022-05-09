@@ -17,8 +17,8 @@ function Register() {
       <label className="form__label" for="email">Message </label>
         <textarea id="message" required />
       </div>
-      <div class="footer">
-              <button type="submit" class="btn">Submit</button>
+      <div class="">
+              <center><button type="submit" class="btn">Submit</button></center>
           </div> 
       </div>     
       </div>

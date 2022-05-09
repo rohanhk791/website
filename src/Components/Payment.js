@@ -1,22 +1,21 @@
 import React from 'react';
+import { Link } from "react-router-dom";
  
 
   function Payment() {
 
     return (
-      <div className="pay">
-          <center><h1>Payment</h1>
-          <button className="App-link">
-          <a href="https://rzp.io/i/N0co9lv">Pay Loan</a>
-        </button>
-        <button className="App-link">
-          <a href="https://rzp.io/i/N0co9lv">Pay Due Loan</a>
-        </button>
+      <div className="pay1"><br></br>
+          <center><h1>Payment</h1><br></br>
+          <button className="App-link pay">
+          <a href="https://rzp.io/i/nc4yKIfOP">Pay Loan</a>
+        </button><br></br><br></br>
+        <button className="App-link pay">
+          <a href="https://rzp.io/i/nc4yKIfOP">Pay Due Loan</a>
+        </button><br></br>
        </center>
-        
+        <br></br>
       </div>
     );
   }
-  
- 
 export default Payment;

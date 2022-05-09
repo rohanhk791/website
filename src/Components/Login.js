@@ -7,7 +7,7 @@ function Register() {
               <div className="username">
                
                   <label className="form__label" for="firstName">User Name </label>
-                  <input className="form__input" type="text" id="firstName" placeholder="First Name"/>
+                  <input className="form__input" type="text" id="userName" placeholder="User Name"/>
               </div>
               
               <div className="password">
@@ -16,8 +16,8 @@ function Register() {
               </div>
               
           </div>
-          <div class="footer">
-              <button type="submit" class="btn">Login</button>
+          <div class="">
+              <center><button type="submit" class="btn">Login</button></center>
           </div>
      
   

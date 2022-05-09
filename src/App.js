@@ -13,6 +13,7 @@ import Services from "./Components/Personalloan";
 import Servic from "./Components/Vehicleloan";
 import Footer1 from "./Components/Footer";
 import Paymen from "./Components/Payment";
+import Form from "./Components/Personalloanform";
 
   class App extends Component {
   render() {
@@ -36,6 +37,7 @@ import Paymen from "./Components/Payment";
           <Route path="Personalloan" element={<Services />} />
           <Route path="Vehicleloan" element={<Servic />} />
           <Route path="Payment" element={<Paymen />} />
+          <Route path="Personalloanform" element={<Form />} />
       
           {/* <Route path="/" element={<Home />} />  */}
         </Routes>

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Img3 from './assets/8.png';
+import { Link } from "react-router-dom";
+
 class Services3 extends Component {
   render() {
     return (
@@ -24,7 +26,10 @@ class Services3 extends Component {
 <p>5) Loan turnaround time: A Personal Loan typically has the fastest turnaround time in the industry. Many banks personal loans online approval within 48 hours after submission of the online application.</p>
 <p>6) Processing fees: It depends on the individual bank. It usually ranges between  500 to - 2.5% of the loan amount.</p>
 <p>7) Prepayment penalty: Banks charge prepayment penalty if you repay your Personal Loan before the determined period. The charges range between 1-2% of the outstanding amount on the date of closure.</p></center>
-<button class="btn btn-warning text-white btn-lg Button1">Apply Now</button>
+ 
+ 
+ 
+ <a href="Personalloanform" class="btn btn-warning text-white btn-lg Button1">Apply Now</a>
 <br></br>
 <br></br>
         </div>

@@ -59,16 +59,16 @@ function Footer()
                   Services
                 </h6>
                 <p>
-                <Link to="" class="text-reset">Home Loan</Link>
+                <Link to="homeloan" class="text-reset">Home Loan</Link>
                 </p>
                 <p>
-                <Link to="" class="text-reset">Personal Loan</Link>
+                <Link to="personalloan" class="text-reset">Personal Loan</Link>
                 </p>
                 <p>
-                <Link to="" class="text-reset">Vehicle Loan</Link>
+                <Link to="vehicleloan" class="text-reset">Vehicle Loan</Link>
                 </p>
                 <p>
-                <Link to="" class="text-reset">Educational Loan</Link>
+                <Link to="#" class="text-reset">Educational Loan</Link>
                 </p>
 
               </div>
@@ -77,7 +77,7 @@ function Footer()
                   Other
                 </h6>
                 <p>
-                <Link to="" class="text-reset">Contact Us</Link>
+                <Link to="contact" class="text-reset">Contact Us</Link>
                 </p>
                 <p>
                 <Link to="" class="text-reset">Help</Link>

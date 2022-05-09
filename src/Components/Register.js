@@ -24,8 +24,8 @@ function Register() {
                   <input className="form__input" type="password" id="confirmPassword" placeholder="Confirm Password"/>
               </div>
           </div>
-          <div class="footer">
-              <button type="submit" class="btn">Register</button>
+          <div class="">
+              <center><button type="submit" class="btn">Register</button></center>
           </div>
       </div>      
     )       

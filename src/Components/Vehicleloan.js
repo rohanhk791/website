@@ -20,6 +20,9 @@ Compare the lowest home loan interest rate starting from 6.40% p.a. and apply fo
       Vehicle Loan Interest Rate 2022
       </h2></center>
       <Table/>
+      <a href="Personalloanform" class="btn btn-warning text-white btn-lg Button1">Apply Now</a>
+        <br></br>
+        <br></br>
         </div>
     );
   }

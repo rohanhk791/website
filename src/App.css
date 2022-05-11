@@ -72,7 +72,7 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3
 }
 
 .footer{
-  text-align: center;
+text-align: center;
 }
 /* 
 ///style for navbar// */
@@ -159,6 +159,7 @@ width: 250px;
 }
 /* //footer// */
 
+
 .footer{
   position:absolute;
 left:0;
@@ -173,6 +174,14 @@ right:0;
   color:rgb(255, 255, 255);
   font-size: 1.8rem;
 
+  
+}
+
+.h6{
+  color:rgb(255, 255, 255);
+  font-size: 1.8rem;
+
+  
 }
 .social i{
   font-size: 22px;

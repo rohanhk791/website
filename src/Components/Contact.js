@@ -2,6 +2,7 @@ import React, { Component } from "react";
 function Register() {
     return(
       <div className="form">
+          <center><h1>Contact Us</h1></center>
           <div className="form-body">
             
               <div className="username">

@@ -2,7 +2,9 @@ import React, { Component } from "react";
 function Register() {
     return(
       <div className="form">
+          <h1><center>Login</center></h1>
           <div className="form-body">
+              
             
               <div className="username">
                

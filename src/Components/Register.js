@@ -3,6 +3,7 @@ function Register() {
     return(
 
       <div className="form">
+           <h1><center>Register</center></h1>
           <div className="form-body">
               <div className="username">
                   <label className="form__label" for="firstName">First Name </label>

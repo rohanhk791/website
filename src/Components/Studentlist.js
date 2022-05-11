@@ -31,11 +31,11 @@ export default class Studentlist extends Component {
     render() {  
       return (  
         <div>  
-          <h4 align="center">Student List</h4>  
+          <h4 align="center">User List</h4>  
           <table className="table table-striped" style={{ marginTop: 10 }}>  
             <thead>  
               <tr>  
-                <th>id</th>  
+                <th>ID</th>  
                 <th>FirstName</th>  
                 <th>LastName </th>  
                 <th>Email</th> 

@@ -36,7 +36,7 @@ function Footer()
                 </div>
                 <br></br>
               </div>
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 fstt">
                 <h6 class="text-uppercase fw-bold mb-4">
                   About
                 </h6>
@@ -54,7 +54,7 @@ function Footer()
                   <Link to="" class="text-reset">Privacy Policy</Link>
                 </p>
               </div>
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 fst1">
                 <h6 class="text-uppercase fw-bold mb-4">
                   Services
                 </h6>
@@ -72,7 +72,7 @@ function Footer()
                 </p>
 
               </div>
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 fst2">
                 <h6 class="text-uppercase fw-bold mb-4">
                   Other
                 </h6>

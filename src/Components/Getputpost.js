@@ -4,8 +4,10 @@ import Addstudent from "./Registerr";
 
 function Getputpost() {
     return(
-        <div>
+        <div><br></br>
+            <br></br><br></br>
              <Studentlist/>
+             <br></br>
              <Addstudent/>
         </div>      
     )       

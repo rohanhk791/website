@@ -23,7 +23,7 @@ return (
                 <li><Link to="Homeloan">Home loan</Link></li> 
                 <li><Link to="Vehicleloan">Vehicle loan</Link></li>
                 <li><Link to="Personalloan">Personal loan</Link></li>   
-                <li><Link to="Personalloan">Loan calculator</Link></li>
+                <li><Link to="Getputpost">Get Put Post</Link></li> 
                 
             
               </ul>  

@@ -14,12 +14,14 @@ import Servic from "./Components/Vehicleloan";
 import Footer1 from "./Components/Footer";
 import Paymen from "./Components/Payment";
 import Form from "./Components/Personalloanform";
+import Get from "./Components/Getputpost";
 
   class App extends Component {
   render() {
     return (
       <div class="">
         <Navbarc/>
+       
        
        
       
@@ -38,6 +40,7 @@ import Form from "./Components/Personalloanform";
           <Route path="Vehicleloan" element={<Servic />} />
           <Route path="Payment" element={<Paymen />} />
           <Route path="Personalloanform" element={<Form />} />
+          <Route path="Getputpost" element={<Get/>} />
       
           {/* <Route path="/" element={<Home />} />  */}
         </Routes>

@@ -4,7 +4,9 @@ import React from 'react';
   function Personalloanform() {
 
     return (
+      
         <div className="form">
+              <center><h1>Enter the details</h1></center>
         <div className="form-body">
             <div className="username">
                 <label className="form__label" for="firstName">First Name </label>

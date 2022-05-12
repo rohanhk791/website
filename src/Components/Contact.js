@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 function Register() {
     return(
+        <div>
+            <br>
+            </br>
+            <br></br>
       <div className="form">
-          <center><h1>Contact Us</h1></center>
+          <center><h1>Contact</h1></center>
           <div className="form-body">
             
               <div className="username">
@@ -22,6 +26,8 @@ function Register() {
               <center><button type="submit" class="btn">Submit</button></center>
           </div> 
       </div>     
+      </div>
+      <br></br>
       </div>
     )     
 }

@@ -1,0 +1,35 @@
+[
+    {
+        "loanintrest" : "EMI : 12.2%",
+        "type" : "Home Loan",
+        "msg" : "Loans are paid in pre-defined increments over the term defined.",
+        "time" : "Durations 10 years",
+        "time1" : "Remaining 6 years 2 Months",
+        "time2" : "Due 25000",
+        "path": "assets/4.jpg"
+        
+
+    },
+    {
+        "loanintrest" : "EMI : 10.2%",
+        "type" : "Vehicle Loan",
+        "msg" : "Loans are paid in pre-defined increments over the term defined.",
+        "time" : "Durations 5 years",
+        "time1" : "Remaining 2 years 6 Months",
+        "time2" : "Due 8500",
+        "path": "assets/2.jpg"
+        
+    },
+    {
+        "loanintrest" : "EMI : 14.2%",
+        "type" : "Personal Loan",
+        "msg" : "Loans are paid in pre-defined increments over the term defined.",
+        "time" : "Durations 6 years",
+        "time1" : "Remaining 5 years 6 Months",
+        "time2" : "Due 12000",
+        "path": "assets/p2.jpg"
+        
+
+    }
+
+]

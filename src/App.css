@@ -159,7 +159,15 @@ width: 250px;
 }
 /* //footer// */
 
-
+.fstt{
+  left: 100px;
+}
+.fst1{
+  left: 180px;
+}
+.fst2{
+  left: 180px;
+}
 .footer{
   position:absolute;
 left:0;
@@ -189,7 +197,7 @@ right:0;
   color: #fff;
   line-height: 1;
   padding: 0px 0;
-  margin-right: 4px;
+  margin-right: 2px;
   border-radius: 50px;
   border-width: 3px;
   text-align: center;
@@ -259,17 +267,5 @@ right:0;
     text-align: center;
     margin-left: 30px;
   }
-/*   
-  //payment page style// */
 
-  .pay{
-    margin-left:12rem !important;
-    transform: translateX(-25%);
-    color: #fff;
-    background: rgb(3, 43, 70);
-    padding:10px 10px; 
-    font-size: 2em;
-    font-weight: 600;
-    width: 250px;
-
-  }
+ 

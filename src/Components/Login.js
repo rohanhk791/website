@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 function Register() {
     return(
+        <div>
+            <br></br>
+            <br></br>
+       
       <div className="form">
           <h1><center>Login</center></h1>
           <div className="form-body">
@@ -23,7 +27,10 @@ function Register() {
           </div>
      
   
-      </div>      
+      </div> 
+      <br></br> 
+      </div>  
+       
     )       
 }
 export default Register;

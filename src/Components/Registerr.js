@@ -69,13 +69,13 @@ return (
         <FormGroup row>  <br></br> 
           <Label for="Password" sm={2}>Password</Label>  
           <Col sm={10}>  
-            <Input type="text" name="Password" onChange={this.handleChange} value={this.state.Password} placeholder="Enter Password" />  
+            <Input type="Password" name="Password" onChange={this.handleChange} value={this.state.Password} placeholder="Enter Password" />  
           </Col>  
         </FormGroup>  
         <FormGroup row> <br></br>  
           <Label for="ConfirmPassword" sm={2}>ConfirmPassword</Label>  
           <Col sm={10}>  
-            <Input type="text" name="ConfirmPassword" onChange={this.handleChange} value={this.state.ConfirmPassword} placeholder="Enter ConfirmPassword" />  
+            <Input type="Password" name="ConfirmPassword" onChange={this.handleChange} value={this.state.ConfirmPassword} placeholder="Enter ConfirmPassword" />  
           </Col>  
         </FormGroup>  
       </Col>  
@@ -102,3 +102,74 @@ return (
 }  
    
 export default Addstudent; 
+
+
+// import axios from 'axios';
+// import react, { useEffect, useState } from 'react';
+// import { Link } from "react-router-dom";
+
+// const Addstudent = (props) => {
+//   const [data, setData] = useState([]);
+
+//   useEffect(() => {
+//     fetchdata()
+
+//   }, [])
+//   const fetchdata = async () => {
+//     const response = await axios.get("https://localhost:44356/Api/Registers");
+//     setData(response.data)
+//   }
+
+//   const deleteuser = async (id) => {
+//     await axios.delete(`https://localhost:44356/Api/Registers`);
+//     fetchdata()
+//   }
+//   const [mode, setmode] = useState('light');
+//   return (
+//     <>
+//       <div className='container-fluid mb-5'>
+
+    
+//         <div>
+//           <h1 className='text-center'>Customers who trust FairFinance Funding</h1>
+//         </div>
+//         <table className={`table border shadow table-bordered text-center  ${props.mode}`}>
+//           <thead className='table-dark' >
+//             <tr>
+//               <th scope="col">Id</th>
+//               <th scope="col">FirstName</th>
+              
+//               <th scope="col">LastName</th>
+//               <th scope="col">Email</th>
+//               <th scope="col">Password</th>
+             
+//               <th scope="col">ConfirmPassword</th>
+//               <th scope="col">Delete</th>
+//             </tr>
+//           </thead>
+//           <tbody>
+//             {data.map((x, index) => (
+//               <tr>
+//                 <th scope="row">{index + 1} </th>
+//                 <td>{x.FirstName}</td>
+//                 <td>{x.LastName}</td>
+//                 <td>{x.Email}</td>
+//                 <td>{x.Password}</td>
+//                 <td>{x.ConfirmPassword}</td>
+                
+                
+//                 <td>
+//                   {/* <Link className='btn btn-outline-primary m-2 ' to={`/user/${x.id}`}>view</Link>
+//                   <Link className='btn btn-outline-warning m-2' to={`/edit/${x.id}`} >edit</Link> */}
+//                   <button className='btn btn-outline-danger' onClick={(e) => deleteuser(x.id)}>delete</button>
+//                 </td>
+//               </tr>
+//             ))}
+//           </tbody>
+//         </table>
+
+//       </div>
+//     </>
+//   )
+
+// }

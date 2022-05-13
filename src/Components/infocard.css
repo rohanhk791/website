@@ -4,18 +4,18 @@
 
 }
 
-/* .cardbg:hover
+.cardbg:hover
 {
     background-color: rgb(232,166,141);
 
-} */
+}
 
 .img
 {
     position: relative;
-    left: 80px;
-    height: 150px;
-    width: 150px;
+    left: 70px;
+    height: 180px;
+    width: 180px;
     mix-blend-mode: darken;
 }
 

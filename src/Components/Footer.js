@@ -21,16 +21,16 @@ function Footer()
                 <p>Ph no : 6362994070</p>
                 <br></br>
                 <div class="social">
-                  <Link to="" class="me-4 text-reset">
+                  <Link to="www.facebook.com" class="me-4 text-reset">
                     <i class="fa fa-facebook" ></i>
                   </Link>
-                  <Link to="" class="me-4 text-reset">
+                  <Link to="www.twitter.com" class="me-4 text-reset">
                     <i class="fa fa-twitter"></i>
                   </Link>
-                  <Link to="" class="me-4 text-reset">
+                  <Link to="www.google.com" class="me-4 text-reset">
                     <i class="fa fa-google"></i>
                   </Link>
-                  <Link to="" class="me-4 text-reset">
+                  <Link to="www.instagram.com" class="me-4 text-reset">
                     <i class="fa fa-instagram"></i>
                   </Link>
                 </div>
@@ -84,6 +84,9 @@ function Footer()
                 </p>
                 <p>
                 <Link to="" class="text-reset">Privacy</Link>
+                </p>
+                <p>
+                <Link to="Getputpost" class="text-reset">Getputpost</Link>
                 </p>
               </div>
             </div>

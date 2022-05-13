@@ -8,7 +8,6 @@
 //   )
 // }
 
-
 import React from 'react'
 
 import '../Components/infocard.css';

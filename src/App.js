@@ -15,6 +15,8 @@ import Footer1 from "./Components/Footer";
 import Paymen from "./Components/Payment";
 import Form from "./Components/Personalloanform";
 import Get from "./Components/Getputpost";
+import Use from "./Components/User";
+import Edi from "./Components/Edit";
 
   class App extends Component {
   render() {
@@ -41,6 +43,8 @@ import Get from "./Components/Getputpost";
           <Route path="Payment" element={<Paymen />} />
           <Route path="Personalloanform" element={<Form />} />
           <Route path="Getputpost" element={<Get/>} />
+          <Route path="User/:id" element={<Use/>} />
+          <Route path="Edit/:id" element={<Edi/>} />
       
           {/* <Route path="/" element={<Home />} />  */}
         </Routes>

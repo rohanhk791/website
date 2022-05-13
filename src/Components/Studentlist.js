@@ -114,8 +114,8 @@ const Addstudent = (props) => {
                 
                 
                 <td>
-                <Link className='btn btn-outline-primary m-2 ' to={`/User/${x.id}`}>View</Link>
-                  <Link className='btn btn-outline-warning m-2' to={`/Edit/${x.id}`} >Edit</Link>
+                <Link className='btn btn-outline-primary m-2 cls' to={`/User/${x.id}`}>View</Link>
+                  <Link className='btn btn-outline-warning m-2 cls' to={`/Edit/${x.id}`} >Edit</Link>
                   <button className='btn btn-outline-danger' onClick={(e) => deleteuser(x.id)}>Delete</button>
                  
                 </td>

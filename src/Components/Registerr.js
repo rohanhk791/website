@@ -1,6 +1,8 @@
 import React from 'react';  
 import axios from 'axios';  
 import './reg.css';
+import { useParams,useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
 // import 'bootstrap/dist/css/bootstrap.css';
 import { Container, Col, Form, Row, FormGroup, Label, Input, Button } from 'reactstrap';  
 
@@ -38,7 +40,7 @@ this.setState({[e.target.name]:e.target.value});
    
 render() {  
 return (  
-   <Container className="App">  
+   <Container className="App">  <br></br>
     <h4 className="PageHeading">Enter Informations</h4>  
     <Form className="form1">  
       <Col>  
@@ -92,9 +94,11 @@ return (
           <Col sm={5}>  
           </Col>  
         </FormGroup>  
-      </Col>  
+      </Col>  <br></br>
+      <Link className="btn btn-primary" to="/Getputpost">Back </Link>
     </Form>   <br></br> 
   </Container> 
+
   
 );  
 }  

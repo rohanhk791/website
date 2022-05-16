@@ -8,7 +8,7 @@ function Getputpost() {
             <br></br><br></br>
              <Studentlist/>
              <br></br>
-             <Addstudent/>
+             {/* <Addstudent/> */}
         </div>      
     )       
 }

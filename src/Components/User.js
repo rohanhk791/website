@@ -29,7 +29,7 @@ const User = () => {
             <div className='container use'>
                 <h1 className='display-4'>Userid___{user.id}</h1>
                 <hr/>
-                <ul className='list-group w-50'>
+                <ul className='list-group w-50 use1'>
             
                     <li className='list-group-item'>User FirstName : {user.FirstName}</li>
                     <li className='list-group-item'>User LastName : {user.LastName}</li>
@@ -40,7 +40,7 @@ const User = () => {
                 </ul>
 
                 <Link className="btn btn-primary" to="/Getputpost">Back </Link>
-
+<br></br>
                 
             </div>
             

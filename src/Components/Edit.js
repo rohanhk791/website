@@ -41,8 +41,9 @@ return (
     <div className=''>
 
     </div>
-    <h4 className="PageHeading">Edit User</h4>
-    <Form className="form" >
+    <br></br>
+    <center><h4 className="PageHeading1">Edit User</h4><br></br></center>
+    <Form className="form11" >
       <Col>
         <FormGroup row>
           <Label for="id" sm={2}>User id</Label>
@@ -81,7 +82,7 @@ return (
           </Col>
         </FormGroup>
       </Col>
-      <Col>
+      <Col><br></br>
         <FormGroup row>
           <Col sm={5}>
           </Col>
@@ -89,7 +90,7 @@ return (
             <button type="button" onClick={e=> onSubmit(e)} className="btn btn-success">Submit</button>
           </Col>
           <Col sm={1}>
-            <Button color="danger">Cancel</Button>{' '}
+            <Button color="danger" to="/Getputpost">Cancel</Button>{' '}
           </Col>
           <Col sm={5}>
           </Col>
@@ -97,7 +98,7 @@ return (
         </FormGroup>
       </Col>
       <Link className="btn btn-primary" to="/Getputpost">Back </Link>
-    </Form>
+    </Form><br></br>
   </Container>
 );
   

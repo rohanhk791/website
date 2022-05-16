@@ -17,6 +17,7 @@ import Form from "./Components/Personalloanform";
 import Get from "./Components/Getputpost";
 import Use from "./Components/User";
 import Edi from "./Components/Edit";
+import Reg from "./Components/Registerr";
 
   class App extends Component {
   render() {
@@ -45,7 +46,7 @@ import Edi from "./Components/Edit";
           <Route path="Getputpost" element={<Get/>} />
           <Route path="User/:id" element={<Use/>} />
           <Route path="Edit/:id" element={<Edi/>} />
-      
+          <Route path="reg" element={<Reg/>} />
           {/* <Route path="/" element={<Home />} />  */}
         </Routes>
         <Footer1/>

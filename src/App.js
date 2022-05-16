@@ -18,6 +18,7 @@ import Get from "./Components/Getputpost";
 import Use from "./Components/User";
 import Edi from "./Components/Edit";
 import Reg from "./Components/Registerr";
+import Clist from "./Components/Contactlist";
 
   class App extends Component {
   render() {
@@ -47,6 +48,7 @@ import Reg from "./Components/Registerr";
           <Route path="User/:id" element={<Use/>} />
           <Route path="Edit/:id" element={<Edi/>} />
           <Route path="reg" element={<Reg/>} />
+          <Route path="Contactlist" element={<Clist/>} />
           {/* <Route path="/" element={<Home />} />  */}
         </Routes>
         <Footer1/>

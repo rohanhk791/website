@@ -99,7 +99,7 @@ const Addstudent = (props) => {
               <th scope="col">Password</th>
              
               <th scope="col">ConfirmPassword</th>
-              <th scope="col">Delete</th>
+              <th scope="col">Operations</th>
             </tr>
           </thead>
           <tbody>
@@ -114,9 +114,9 @@ const Addstudent = (props) => {
                 
                 
                 <td>
-                <Link className='btn btn-outline-primary m-2 cls' to={`/User/${x.id}`}>View</Link>
-                  <Link className='btn btn-outline-warning m-2 cls' to={`/Edit/${x.id}`} >Edit</Link>
-                  <button className='btn btn-outline-danger' onClick={(e) => deleteuser(x.id)}>Delete</button>
+                <Link className='btn btn-outline-primary m-2 ' to={`/User/${x.id}`}>Vision</Link>
+                  <Link className='btn btn-outline-warning m-2 ' to={`/Edit/${x.id}`} > Rescript</Link>
+                  <button className='btn btn-outline-danger m-2 ' onClick={(e) => deleteuser(x.id)}>Take Out</button>
                  
                 </td>
               </tr>

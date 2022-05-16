@@ -24,6 +24,7 @@ function Register() {
           </div>
           <div class="">
               <center><button type="submit" class="btn">Login</button></center>
+              
           </div>
      
   

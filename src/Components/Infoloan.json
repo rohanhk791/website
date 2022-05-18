@@ -14,7 +14,7 @@
         "loanintrest" : "EMI : 10.2%",
         "type" : "Vehicle Loan",
         "msg" : "Loans are paid in pre-defined increments over the term defined.",
-        "time" : "Durations 5 years",
+        "time" : "Durations 6 years",
         "time1" : "Remaining 2 years 6 Months",
         "time2" : "Due 8500",
         "path": "assets/2.jpg"
